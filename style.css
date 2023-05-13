@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&family=Shantell+Sans:wght@700&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+font-family: 'Shantell Sans', cursive;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: #f93434ff;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0000, 0 -10px 20px #ff8000, 0 -18px 40px #eeff00, 7px -40px 20px rgba(206,89,55,0);
+  font-size: x-large;
+}
+p {
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Overlock SC', cursive;
+  text-align: center;
+}
+hi my n
+h1 {
+  font-size: xxx-large;
+  color: #f42a5cff;
+  text-align: center;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 7px -40px 20px rgba(206,89,55,0);
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 50vmin;
+  height: 50vmin;
+  margin-top: 1vmin;
+  border-spacing: 0vmin;
+}
+/* Video */
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -12;
+}
+td button {
+  width: 12vmin;
+  height: 12vmin;
+  border: solid 2px #000;
+  border-radius: 2vmin;
+  background: rgb(255,174,195);
+background: radial-gradient(circle, rgba(255,174,195,1) 0%, rgba(255,0,44,1) 100%);
+  background-size: cover
+}
+
+/*CSS Change on Pressing a Button */
+.pressed{
+ animation: newcolors 3s infinite; 
+ background-image: none;
+}
+
+@keyframes newcolors {
+  0%{
+    background-color: #ff0000FF;
+  }
+  20%{
+    background-color: #ff2949fff;
+  }
+  40%{
+    background-color: #ff6666fff;
+  }
+  60%{
+    background-color: #ff8585fff;
+  }
+  80%{
+    background-color: #ff9e9efff;
+  }
+  100%{
+    background-color: #ffc2c2fff;
+  }
+}
